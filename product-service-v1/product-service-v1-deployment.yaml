@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - image: jpaezr/product-service-v1:latest
-        name: product-service-v1i
+        name: product-service-v1
         ports:
         - containerPort: 3000

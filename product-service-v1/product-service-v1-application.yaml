@@ -11,7 +11,7 @@ spec:
   source: 
     path: product-service-v1
     repoURL: "https://github.com/jouncato/master-kubernetes.git"
-    targetRevision: master
+    targetRevision: main
   syncPolicy:
     syncOptions:
       - CreateNamespace=true

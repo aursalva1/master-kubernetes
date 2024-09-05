@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: product-service-v1
-  namespace: db
 spec:
   replicas: 3
   revisionHistoryLimit: 6
